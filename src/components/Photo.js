@@ -1,10 +1,21 @@
 import React from "react";
-import placeholder from './placeholder.jpg';
+import './Photo.css';
 
-function Photo() {
+function Photo(props) {
+  const {image, imageData} = props
+
+
+
   return (
-    <div>
-      <img src={placeholder} />
+    <div className="container">
+      <div className="photo-side">
+        <img src={image} alt={imageData.explanation} />
+        <p>Photo for {imageData.date}</p>
+        <p>Copyright {imageData.copyright}</p>
+      </div>
+      <div className="explanation">
+        {imageData.explanation}
+      </div>
     </div>
   )
 }

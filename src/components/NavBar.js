@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <nav>
       NASA Photo of the Day
-      <div class="container">
+      <div className="container">
         <div>Home</div>
         <div>Yesterday</div>
       </div>
