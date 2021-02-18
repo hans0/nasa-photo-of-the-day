@@ -1,0 +1,10 @@
+.menu {  
+  display: flex;
+  flex-direction: row; 
+}
+.menu > div {
+  flex-grow: 1;
+}
+
+  
+  
