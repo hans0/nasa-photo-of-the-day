@@ -1,8 +1,8 @@
-.container {  
+.menu {  
   display: flex;
   flex-direction: row; 
 }
-.container > div {
+.menu > div {
   flex-grow: 1;
 }
 
